@@ -1,77 +1,27 @@
-# Loome Fashion UI
-
-A creative fashion landing page UI made using HTML and CSS.
-
-This project was created mainly for practicing modern UI design, layout structuring, spacing, typography, and aesthetic product showcase sections.
-
-The design is inspired by minimal fashion websites and modern ecommerce landing pages.
-
----
-
-# Project Preview
-
----
-
 # About This Project
 
-I made this project while practicing frontend development and creative UI building.
+I created this project mainly to practice CSS positioning and modern UI layout designing.
 
-The main goal was not responsiveness or backend functionality.
+The biggest focus of this project was learning how absolute and relative positioning works in real layouts.
 
-I mainly focused on:
+Elements like:
 
-- Clean modern layout
-- Fashion style UI
-- Better spacing and alignment
-- Typography practice
-- Product showcase design
-- Minimal color palette
-- Hover effects
-- Visual hierarchy
+- Price tag
+- Rating tag
+- Add to bag button
+- verrical strip line
 
-This project is currently designed mainly for desktop screens.
+are positioned using the `position` property.
 
-It works best on larger screens and is not fully responsive for mobile and tablet devices yet because the main purpose was practicing UI designing and layout creativity.
+While changing screen sizes, these positioned elements move based on their parent container, which helped me understand how positioning behaves in actual UI designs.
 
----
+Along with positioning, I also practiced:
 
-# Technologies Used
-
-- HTML5
-- CSS3
 - Flexbox
-- CSS Grid
-- Remix Icons
+- Grid layout
+- Spacing and alignment
+- Hover effects
+- Background image positioning
+- Minimal fashion UI styling
 
----
-
-# Features
-
-- Minimal fashion landing page
-- Modern ecommerce UI
-- Hero product section
-- Sidebar product gallery
-- Hover image zoom effect
-- Stylish navigation bar
-- Floating product tags
-- Circular add to bag button
-- Premium aesthetic design
-- Custom typography styling
-
----
-
-# Folder Structure
-
-```bash
-Loome-Fashion-UI/
-│
-├── index.html
-├── style.css
-├── preview.png
-├── NeueMachina-Light.woff2
-│
-└── imagee/
-    ├── girl.avif
-    ├── img-1.avif
-    ├── img-2.avif
-    └── img-3.avif
+This project is mainly desktop-focused and not fully responsive yet because the goal was improving layout creativity and CSS positioning skills rather than responsive design.
